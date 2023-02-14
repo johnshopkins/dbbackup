@@ -1,0 +1,24 @@
+{
+  "name": "dbbackup",
+  "version": "0.0.0",
+  "description": "Export and store a database in Amazon s3.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.267.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "jest": "^29.4.2"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
