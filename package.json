@@ -1,6 +1,6 @@
 {
   "name": "dbbackup",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Export and store a database in Amazon s3.",
   "main": "index.js",
   "type": "module",
