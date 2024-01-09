@@ -1,8 +1,6 @@
 # Backup database to AWS s3
 
-# Usage
-
-# Backup a database
+## Backup a database
 
 ```javascript
 import { DatabaseBackup, s3 } from 'site-backup';
@@ -18,7 +16,7 @@ const data = await backup
 console.log(data);
 ```
 
-# Remove old backups
+## Remove old backups
 
 What files are kept:
 * every backup that was made on the first of every month
